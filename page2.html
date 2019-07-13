@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="pagestylesheet.css">
+</head>
+<title> Webpage 2.0 </title>
+<body>
+<hr>
+<h1> Welcome to my webpage ver. 2.0 </h1>
+<p id="id"> Paragraphs are a thing</p>
+<ul>
+	<li> list item </li>
+</ul>
+<p class="highlights"> Highlights! </p>
+<a href="https://www.w3schools.com/html/html_links.asp" target="_blank"> w3schools HTML links </a>
+<p><img src = "RF Lens Relation.png" style="text-align:center;" alt="RF Lens Relation picture" width="100" height="100"></p>
+<p title="I'm blue!" style="color:blue;text-align:center;">This is a picture of RF Lens Relations.<sub>cool stuff</sub></p>
+<h2> Random functions </h2>
+<pre>
+	Preformatted text (s p a c e s preserved)
+</pre>
+<table>
+	<tr>
+		<th>Header1</th>
+		<th>Header2</th>
+	</tr>
+	<tr>
+		<td>Data1</td>
+		<td>Data2</td>
+	</tr>
+</table>
+<div class="class">
+	This is a <span> contained </span> section
+</div>
+
+<button onclick="hideExample()">Hide above</button>
+
+<script>
+function hideExample(){
+	var x = document.getElementsByClassName("class");
+	for (var i = 0; i < x.length ; i++){
+		x[i].style.display = "none";
+	}
+}
+</script>
+</body>
+</html>
