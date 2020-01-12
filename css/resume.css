@@ -191,3 +191,99 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.phyeng{
+  position: relative;
+  overflow: hidden;
+}
+
+.phyeng::after {
+  content: "";
+  background: url('../img/phyeng.jpeg');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: right;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
+
+
+.robotics{
+  position: relative;
+  overflow: hidden;
+}
+
+.robotics::after {
+  content: "";
+  background: url('../img/robotics.jpeg');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: right;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
+
+.chemistry{
+  position: relative;
+  overflow: hidden;
+}
+
+.chemistry::after {
+  content: "";
+  background: url('../img/chemistry.jpeg');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: right;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
+
+.lcsyoyo{
+  position: relative;
+  overflow: hidden;
+}
+
+.lcsyoyo::after {
+  content: "";
+  background: url('../img/lcsyoyo.jpeg');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: right;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
+
+.cyber18{
+  position: relative;
+  overflow: hidden;
+}
+
+.cyber18::after {
+  content: "";
+  background: url('../img/cyberchallenge2018.jpeg');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: right;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
