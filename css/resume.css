@@ -287,3 +287,79 @@ a:hover, a:focus, a:active {
   position: absolute;  
   z-index: -1;   
 }
+
+.DiscoverOHS{
+  position: relative;
+  overflow: hidden;
+}
+
+.DiscoverOHS::after {
+  content: "";
+  background: url('../img/Projects/DiscoverOHS/mixed.png');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
+
+.ChemClubWebsite{
+  position: relative;
+  overflow: hidden;
+}
+
+.ChemClubWebsite::after {
+  content: "";
+  background: url('../img/Projects/ChemClubWebsite/homepg1.PNG');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
+
+.EELS{
+  position: relative;
+  overflow: hidden;
+}
+
+.EELS::after {
+  content: "";
+  background: url('../img/Projects/EELS/spectrum.png');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
+
+.TTT{
+  position: relative;
+  overflow: hidden;
+}
+
+.TTT::after {
+  content: "";
+  background: url('../img/Projects/TTT/standardGame.png');
+  background-size:contain; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;  
+  z-index: -1;   
+}
