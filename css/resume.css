@@ -333,7 +333,7 @@ a:hover, a:focus, a:active {
 
 .EELS::after {
   content: "";
-  background: url('../img/Projects/EELS/spectrum.png');
+  background: url('../img/Projects/EELS/deviationData1.png');
   background-size:contain; 
   background-repeat: no-repeat; 
   background-position: center;
